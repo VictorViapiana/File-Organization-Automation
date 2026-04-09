@@ -1,7 +1,7 @@
 import os
 import shutil
 
-caminho = r"C:\Users\victo\Downloads"
+caminho = r"C:\Users\SeuUsuario\Downloads" #Coloque o caminho que desejar
 
 def organizar_arquivos(caminho):
     arquivos = os.listdir(caminho)
