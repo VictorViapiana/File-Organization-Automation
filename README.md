@@ -1,26 +1,29 @@
-# 📂 Organizador de Arquivos em Python
+# 📁 File Organizer in Python
+Python project that automatically organizes files within a specified folder based on their file extensions.
 
-Este projeto organiza automaticamente arquivos de uma pasta com base em suas extensões.
+## 🚀 Features
+Automated file movement: Scans the target folder and moves files to their designated category folders.
 
-## 🚀 Funcionalidades
+## Categorization by extension: Pre-defined categories include:
 
-- Move arquivos automaticamente
-- Separa por categorias:
-  - PDF
-  - Imagens
-  - Vídeos
-  - Outros
+### 📄 PDFs: Moves all .pdf files.
 
-## 🛠 Tecnologias
+### 🖼️ Images: Moves image files (e.g., .png, .jpg, .jpeg).
 
-- Python
-- Bibliotecas: os, shutil
+### 🎬 Videos: Moves video files (e.g., .mp4, .mkv).
 
-## ▶️ Como usar
+### 📦 Others: Catches and moves other miscellaneous file types.
 
-1. Clone o repositório
-2. Altere o caminho da pasta no código
-3. Execute:
+## 🛠️ Technologies Used
+Python: Core programming language.
+
+## 📚 Libraries:
+
+os: Used for interacting with the operating system to list files and get file extensions.
+
+shutil: Used for moving files from the target directory to the destination folders.
+
+## ▶️ How to Use:
 
 ```bash
 python main.py
